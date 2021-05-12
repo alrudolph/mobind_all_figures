@@ -1,4 +1,34 @@
-## src
+```
+project
+|   counties.json
+|   sg_data.csv
+|   state_names.csv
+|   state_regions.csv
+|
+|   figures1.ipynb
+|   figures1.html
+|
+|___src
+    |   agg.py
+    |   global_moran.py
+    |   local_moran.py
+    |   sampling_bias.py
+    |   violin.py
+```
+
+**figures1.ipynb** includes all of the code to generate figures used for the paper, also included in html format.
+
+## Data
+
+**counties.json** contains county geometries and data for our geopandas dataframe.
+
+**sg_data.csv** contains the Safegraph daily county level data for this notebook.
+
+**state_names.csv** is used to get the full state names from their abbreviations.
+
+**state_regions** is used to classify states in the Northeast, West, South or Midwest.
+
+## src/
 
 ### agg.py
 
