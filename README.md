@@ -17,6 +17,7 @@ project
 ```
 
 **figures1.ipynb** includes all of the code to generate figures used for the paper, also included in html format.
+
 **figures1.html** inlcudes exported ipynb notebook for, for better viewing experience, than ipynb.
 
 ## Data
