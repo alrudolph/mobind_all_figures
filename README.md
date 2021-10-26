@@ -26,6 +26,8 @@ project
 
 **figures1.ipynb** includes all of the code to generate figures used for the paper, also included in html format.
 
+**figures1.html** inlcudes exported ipynb notebook for, for better viewing experience, than ipynb.
+
 ## Data
 
 **counties.json** contains county geometries and data for our geopandas dataframe.
@@ -46,14 +48,14 @@ Includes aggregation functions for the data
 
 Includes functions to calculate global moran I test static and p-value, and plot those values
 
-### local_moran
+### local_moran.py
 
 Includes functions to compute the local moran I test static, quadrants, etc... and make the bubble maps of the US
 
-### sampling_bias
+### sampling_bias.py
 
 Includes function to make the plot of the sampling bias
 
-### violin
+### violin.py
 
 Includes functions to scale the data and axis of the violin plots. The plots are in the notebook.
